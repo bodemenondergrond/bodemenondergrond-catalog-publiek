@@ -17,7 +17,7 @@ where
 ?s ?p ?o .
 ?o a ?c
 optional{?s rdfs:label ?label }
-FILTER(REGEX(str(?s), 'bodemenondergrond', 'i'))
-FILTER(REGEX(str(?o), 'bodemenondergrond', 'i'))
+FILTER(REGEX(str(?s), 'bodemenondergrond|omgeving', 'i'))
+FILTER(REGEX(str(?o), 'bodemenondergrond|omgeving', 'i'))
 }  
 
