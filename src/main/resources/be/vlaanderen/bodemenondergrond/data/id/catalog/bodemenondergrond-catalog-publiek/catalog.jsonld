@@ -1,0 +1,259 @@
+{
+    "@graph": [
+        {
+            "@id": "omg_id:namedgraph/bodemenondergrond-conceptschemes-publiek",
+            "sd:name": {
+                "@id": "omg_graph:bodemenondergrond-conceptschemes-publiek"
+            },
+            "dcterms:source": {
+                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.bodemenondergrond-conceptschemes-publiek.0.1.0-SNAPSHOT"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_id:namedgraph/dsi-data-intern"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.graph.bodemenondergrond-conceptschemes-publiek",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Graph bodemenondergrond-conceptschemes-publiek"
+            },
+            "@type": "sd:NamedGraph"
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.bodemenondergrond-conceptschemes-publiek.0.1.0-SNAPSHOT",
+            "spdx:versionInfo": "0.1.0-SNAPSHOT",
+            "spdx:relationshipType_packageOf": {
+                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.bodemenondergrond-catalog-publiek.0.0.1"
+            },
+            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.bodemenondergrond-conceptschemes-publiek",
+            "spdx:packageFileName": "bodemenondergrond-conceptschemes-publiek-0.1.0-SNAPSHOT.jar",
+            "spdx:downloadLocation": {
+                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/bodemenondergrond-conceptschemes-publiek/0.1.0-SNAPSHOT/bodemenondergrond-conceptschemes-publiek-0.1.0-SNAPSHOT.jar",
+                "@type": "xsd:anyURI"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package bodemenondergrond-conceptschemes-publiek"
+            },
+            "@type": "spdx:Package"
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijsten-bodemenondergrond-catalogus.0.1.0-SNAPSHOT",
+            "spdx:versionInfo": "0.1.0-SNAPSHOT",
+            "spdx:relationshipType_packageOf": {
+                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.bodemenondergrond-catalog-publiek.0.0.1"
+            },
+            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijsten-bodemenondergrond-catalogus",
+            "spdx:packageFileName": "codelijsten-bodemenondergrond-catalogus-0.1.0-SNAPSHOT.jar",
+            "spdx:downloadLocation": {
+                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijsten-bodemenondergrond-catalogus/0.1.0-SNAPSHOT/codelijsten-bodemenondergrond-catalogus-0.1.0-SNAPSHOT.jar",
+                "@type": "xsd:anyURI"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijsten-bodemenondergrond-catalogus"
+            },
+            "@type": "spdx:Package"
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.bodemenondergrond-catalog-publiek.0.0.1",
+            "spdx:versionInfo": "0.0.1",
+            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.bodemenondergrond-catalog-publiek",
+            "spdx:packageFileName": "bodemenondergrond-catalog-publiek-0.0.1.jar",
+            "spdx:downloadLocation": {
+                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/bodemenondergrond-catalog-publiek/0.0.1/bodemenondergrond-catalog-publiek-0.0.1.jar",
+                "@type": "xsd:anyURI"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package bodemenondergrond-catalog-publiek"
+            },
+            "@type": "spdx:Package"
+        },
+        {
+            "@id": "omg_catalog:codelijst",
+            "sd:namedGraph": [
+                {
+                    "@id": "omg_id:namedgraph/bodemenondergrond-catalog-publiek"
+                },
+                {
+                    "@id": "omg_id:namedgraph/bodemenondergrond-conceptschemes-publiek"
+                }
+            ],
+            "dcat:service": {
+                "@id": "omg_dataservice:sparqlendpoint"
+            },
+            "@type": "dcat:Catalog"
+        },
+        {
+            "@id": "omg_id:namedgraph/bodemenondergrond-catalog-publiek",
+            "sd:name": {
+                "@id": "omg_graph:bodemenondergrond-catalog-publiek"
+            },
+            "dcterms:source": {
+                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.bodemenondergrond-catalog-publiek.0.0.1"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_id:namedgraph/bodemenondergrond-catalog-publiek"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.graph.bodemenondergrond-catalog-publiek",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Graph bodemenondergrond-catalog-publiek"
+            },
+            "@type": "sd:NamedGraph"
+        },
+        {
+            "@id": "omg_dataservice:sparqlendpoint",
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Sparql endpoint van data.bodemenondergrond.vlaanderen.be"
+            },
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Sparql endpoint op de datasets binnen data.bodemenondergrond.vlaanderen.be domein"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Sparql endpoint api op de datasets gepubliceerd onder het domein data.bodemenondergrond.vlaanderen.be."
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataservice.sparqlendpoint",
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "dcat:endpointDescription": {
+                "@id": "omg_id:service/sparqlservice"
+            },
+            "@type": "dcat:DataService",
+            "dcterms:identifier": {
+                "@id": "omg_dataservice:sparqlendpoint"
+            }
+        },
+        {
+            "@id": "omg_id:service/sparqlservice",
+            "sd:resultFormat": [
+                {
+                    "@id": "formats:N3"
+                },
+                {
+                    "@id": "formats:N-Triples"
+                },
+                {
+                    "@id": "formats:SPARQL_Results_CSV"
+                },
+                {
+                    "@id": "formats:Turtle"
+                },
+                {
+                    "@id": "formats:SPARQL_Results_XML"
+                },
+                {
+                    "@id": "formats:SPARQL_Results_JSON"
+                },
+                {
+                    "@id": "formats:RDF_XML"
+                }
+            ],
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Een beschrijving, met de verschillende kenmerken, van de sparql service."
+            },
+            "sd:feature": [
+                {
+                    "@id": "sd:UnionDefaultGraph"
+                },
+                {
+                    "@id": "sd:DereferencesURIs"
+                }
+            ],
+            "sd:url": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/sparql"
+            },
+            "sd:defaultDataset": {
+                "@id": "omg_graphcollection:sparqlservice"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Sparql service conform SPARQL 1.1 Protocol."
+            },
+            "sd:availableGraphs": {
+                "@id": "omg_graphcollection:sparqlservice"
+            },
+            "@type": "sd:Service",
+            "sd:supportedLanguage": {
+                "@id": "sd:SPARQL10Query"
+            },
+            "sd:endpoint": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/sparql"
+            }
+        },
+        {
+            "@id": "omg_graphcollection:sparqlservice",
+            "sd:namedGraph": [
+                {
+                    "@id": "omg_id:namedgraph/bodemenondergrond-conceptschemes-publiek"
+                },
+                {
+                    "@id": "omg_id:namedgraph/bodemenondergrond-catalog-publiek"
+                }
+            ],
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "De graphen die gebruikt kunnen worden in de constructie van een dataset via SPARQL Protocol."
+            },
+            "@type": [
+                "sd:Dataset",
+                "sd:GraphCollection"
+            ]
+        }
+    ],
+    "@context": {
+        "country": "http://publications.europa.eu/resource/authority/country/",
+        "formats": "http://www.w3.org/ns/formats/",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "omg_catalog": "https://data.omgeving.vlaanderen.be/id/catalog/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "ssd": "http://www.w3.org/ns/sparql-service-description#",
+        "omg_graphcollection": "https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "omg_id": "https://data.bodemenondergrond.vlaanderen.be/id/",
+        "access_right": "http://publications.europa.eu/resource/authority/access-right/",
+        "omg_dataset": "https://data.bodemenondergrond.vlaanderen.be/id/dataset/",
+        "frequency": "http://publications.europa.eu/resource/authority/frequency/",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "omg_collection": "https://data.bodemenondergrond.vlaanderen.be/id/collection/",
+        "omg_periodoftime": "https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/",
+        "file_type": "http://publications.europa.eu/resource/authority/file-type/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "assettype": "http://purl.org/adms/assettype/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "omg_dataservice": "https://data.bodemenondergrond.vlaanderen.be/id/dataservice/",
+        "void": "http://rdfs.org/ns/void#",
+        "adms": "http://www.w3.org/ns/adms#",
+        "gemet": "http://www.eionet.europa.eu/gemet/concept/",
+        "omg_named_graph": "https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/",
+        "omg_vcard": "https://data.bodemenondergrond.vlaanderen.be/id/vcard/",
+        "ovo": "http://data.vlaanderen.be/id/organisatie/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "omg_ontology": "https://data.bodemenondergrond.vlaanderen.be/id/ontology/",
+        "omg_graph": "https://data.bodemenondergrond.vlaanderen.be/id/graph/",
+        "omg_distribution": "https://data.bodemenondergrond.vlaanderen.be/id/distribution/",
+        "omg_service": "https://data.bodemenondergrond.vlaanderen.be/id/service/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
+        "omg_conceptscheme": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "omg_package": "https://data.bodemenondergrond.vlaanderen.be/id/package/",
+        "dc": "http://purl.org/dc/elements/1.1/"
+    }
+}
